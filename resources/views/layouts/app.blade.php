@@ -13,5 +13,8 @@
     <div class="container">
         @yield('content')
     </div>
+    <div>
+        Liên hệ với chúng tôi
+    </div>
 </body>
 </html>

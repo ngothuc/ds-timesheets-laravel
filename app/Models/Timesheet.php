@@ -11,6 +11,13 @@ class Timesheet extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'user_id',
+        'date',
+        'difficulties',
+        'next_plan',
+    ];
+
     public function user() {
         return $this->belongsTo(User::class);
     }
